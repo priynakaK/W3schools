@@ -6,12 +6,46 @@ header{
     width: 100%;
     height: 50px;
     background-color: white;
+    display: flex;
 }
 #logo a img{
     width: 43px;
     height: 37px;
     padding: 8px 16px 8px 16px;
+
+}
+#theme a img{
+    width: 18px;
+    height: 18px;
+    padding: 11px 28px;
+}
+#goal {
+    /* border:1px solid black; */
+    /* border-radius: 20px; */
+    display:flex;
+    flex-direction: row;
+}
+#goal a{
+    text-decoration: none;
     
+}
+nav a{
+    width: 70.516px;
+    height: 24px;
+    padding: 16px;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a img{
+    width: 10px;
+    height: 10px;
+}
+#search input{
+    width: 118px;
+    height: 24px;
+    padding: 5px 40px 5px 15px;
+    border: 1px solid black;
+    border-radius: 25px;
 }
 section{
     width: 100%;
